@@ -92,11 +92,45 @@ body { font-family: sans-serif; }
 .carousel-cell:before {
   line-height: 200px;
 }
+@media(max-width:768px){
+  .carousel-cell1 {
+    width: 100%;
+    height: 100vh;
+    background-image:url(../media/image1.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .carousel-cell2 {
+    width: 100%;
+    height: 100vh;
+    background-image:url(../media/nav.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .carousel-cell3 {
+    width: 100%;
+  height: 100vh;
+  background-image:url(../media/Untitled_design_4_ee31f0ea-a8ec-4507-92c0-7f46159c0476.webp) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  .carousel-cell4 {
+    width: 100%;
+    height: 100vh;
+    background-image:url(../media/Untitled_design_6.webp) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  } 
+}
 @media(max-width:320px){
   .carousel-cell1 {
     width: 100%;
     height: 100vh;
-    background-image:url(../media/1_e69ac1c7-d91c-46c6-bfd1-166edfd472b4.webp) ;
+    background-image:url(../media/image1.webp) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
