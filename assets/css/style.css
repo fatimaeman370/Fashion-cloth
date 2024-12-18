@@ -732,7 +732,7 @@ body { font-family: sans-serif; }
   }
   .form2 input{
     background: transparent;
-    color: white;
+    color: var(--bgprimary);
     margin: 10px;
     border: 1px solid;
     padding: 25px 50px;
