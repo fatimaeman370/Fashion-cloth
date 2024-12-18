@@ -43,14 +43,12 @@ nav a:hover{
   nav{
     height: 18vh;
     width: 100%;
-    position: fixed;
   }
 }
 @media(max-width:425px){
   nav{
     height: 20vh;
     width: 100%;
-    position: fixed;
   }
 }
 /* navbar end */
